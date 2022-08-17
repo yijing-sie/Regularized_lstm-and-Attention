@@ -28,7 +28,7 @@ For this part, the goal is to implement a simple character-based **attention** m
 * More specifically, the model uses **dot-product attention** with one layer of Bi-LSTM in encoder and two LSTMCells in decoder.
 * **Training features**: Random sequences of embedded characters, each of variable length and 40 frequency bands
 * **Training labels**: Transcripts corresponding to the training features
-> A screeshot of the first training feature (right) and its corresponding training label
+> A screeshot of the first training feature (left) and its corresponding training label (right)
 <p float="left">
  <img src="train_X_sample.png" width="500" />
  <img src="train_y_sample.png" width="300" />
