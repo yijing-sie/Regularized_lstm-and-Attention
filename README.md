@@ -30,8 +30,8 @@ For this part, the goal is to implement a simple character-based **attention** m
 * **Training labels**: Transcripts corresponding to the training features
 > A screeshot of the first training feature (right) and its corresponding training label
 <p float="left">
- <img src="train_X_sample.png" width="400" />
- <img src="train_y_sample.png" width="200" />
+ <img src="train_X_sample.png" width="500" />
+ <img src="train_y_sample.png" width="300" />
 </p>
 
 * [attention_plots](attention_plots) stores the **attention plots** for the first 10 validation samples, which are also stored as numpy array in [attention.npy](attention.npy)
