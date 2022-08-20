@@ -39,5 +39,6 @@ For this part, the goal is to implement a character-based **attention** model wi
 <p>
   <img src="/attention_plots/attention_0.png" width="400" title="attention_0"/>
 </p>
+
 * The model details can be found in [attention.ipynb](attention.ipynb)
 
