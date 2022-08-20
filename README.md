@@ -22,9 +22,9 @@ The first part of this assignment is to **predict the next word** and **generate
 </p>
 
 ## Attention plot
-For this part, the goal is to implement a simple character-based **attention** model with **teaching-forcing** method to retrieve attention plots.
+For this part, the goal is to implement a character-based **attention** model with **teaching-forcing** method to retrieve attention plots.
 
-* The baseline model is a simplified version in the [Listen, Attend and Spell paper](https://arxiv.org/pdf/1508.01211.pdf?undefined) without the pyramid BLSTM layers.
+* The baseline model is a simplified version in the [Listen, Attend and Spell paper](https://arxiv.org/pdf/1508.01211.pdf?undefined) without the pyramid BLSTM layers in the encoder.
 * More specifically, the model uses **dot-product attention** with one layer of Bi-LSTM in encoder and two LSTMCells in decoder.
 * **Training features**: Random sequences of embedded characters, each of variable length and 40 frequency bands
 * **Training labels**: Transcripts corresponding to the training features
