@@ -1,4 +1,4 @@
-# regularized_lstm-and-Attention
+# Regularized_lstm-and-Attention
 
 
 Intro to Deep Learning assignment:
